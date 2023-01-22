@@ -1,7 +1,8 @@
-## Description
+## Environment
 
-3002 - Application port
-3003 - Users gateway port
+```
+PORT=3002
+```
 
 ## Installation
 
