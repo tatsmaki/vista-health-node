@@ -9,7 +9,7 @@ import { SocketEvents } from 'src/constants/socket-events.constant';
 import { UserModel } from './model/user.model';
 import { UsersService } from './users.service';
 
-@WebSocketGateway(3003, { namespace: 'users', cors: true })
+@WebSocketGateway({ namespace: 'users', cors: true })
 export class UsersGateway implements OnGatewayDisconnect {
   @WebSocketServer()
   server: Server;
