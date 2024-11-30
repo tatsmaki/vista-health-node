@@ -2,8 +2,8 @@
 
 ## Environment
 
-```
-PORT=3002
+```sh
+PORT="3002"
 ```
 
 ## Installation
