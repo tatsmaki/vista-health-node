@@ -1,3 +1,5 @@
+# vista-health-node
+
 ## Environment
 
 ```
@@ -6,17 +8,12 @@ PORT=3002
 
 ## Installation
 
-```bash
-$ yarn install
+```sh
+npm ci
 ```
 
-## Running the app
+## Development
 
-```bash
-
-# watch mode
-$ yarn run start:dev
-
-# production mode
-$ yarn run start:prod
+```sh
+npm run watch
 ```
